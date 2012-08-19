@@ -1,0 +1,62 @@
+/* This file is used to define colors for ChiliProject. They are kept   */
+/* separate in order to make it easy for someone to create a new theme. */
+/*                                                                      */
+/* Some default colors are defined in application.css, mostly grays and */
+/* logical ones (e.g. errors are red).                                  */
+
+@import url(../../../stylesheets/application.css);
+
+#header
+{
+	background: url(background_header.png) #3e83b3 repeat-x 20px;
+	height:43px;
+	font: arial,19px,white;
+}
+
+#header li
+{
+	border-left:1px solid rgba(255,255,255,0.1);
+}
+
+#header li > a:hover
+{
+	background:rgba(255,255,255,0.25);
+}
+
+#header li.drop-down > a:hover
+{
+	background:url(../../../images/arrow-down-white.png) no-repeat right center rgba(255,255,255,0.25);
+}
+
+#header li.drop-down.open > a:hover
+{
+	background:url(../../../images/arrow-down-grey.png) no-repeat right center #fff;
+}
+
+#header li.drop-down.open > a {
+	color:#666;
+}
+
+#account-nav {
+	display:block;
+	background:none;
+}
+
+a, a:link, a:visited {
+	color:#3e83b3;
+	font-weight:bold;
+}
+
+.button-large a {
+	color:#3e83b3;
+}
+
+#sidebar a, #sidebar a:link, #sidebar a:visited {
+	color:#3e83b3;
+}
+
+
+
+/* selected element */
+#wrapper .context-menu-selection { background-color:#FFCE5E !important; color:#000 !important; }
+#wrapper .context-menu-selection:hover { background-color:#FFCE5E !important; color:#000  !important; }
