@@ -1,3 +1,6 @@
+# Use production - added by Douglas
+ENV['RAILS_ENV'] ||= 'production'
+
 # Load the rails application
 require File.expand_path('../application', __FILE__)
 
